@@ -1,0 +1,4 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","J1","1","sata15","satatest:satapwrtest",""
+"2","J2, J3","2","Conn_01x03","molextest:705530002",""
+"3","U1","1","ProMicro_ProMicro","ProMicro:ProMicro",""

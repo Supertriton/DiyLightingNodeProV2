@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\Users\Triton\Documents\GitHub\DiyLightingNodeProV2\LightingNodeProV2\LightingNodeProV2.kicad_sch</source>
+    <date>10/04/2023 15:16:53</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LightingNodeProV2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>sata15</value>
+      <footprint>satatest:satapwrtest</footprint>
+      <libsource lib="sata" part="satapwr" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LightingNodeProV2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfa6e392-62af-45b6-ac2f-6814d924ce6c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>molextest:705530002</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LightingNodeProV2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f953d35</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>molextest:705530002</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LightingNodeProV2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f954923</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ProMicro_ProMicro</value>
+      <footprint>ProMicro:ProMicro</footprint>
+      <libsource lib="LightingNodePro-rescue" part="ProMicro-ProMicro" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LightingNodeProV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f952299</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LightingNodePro-rescue" part="ProMicro-ProMicro">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ProMicro_ProMicro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX" type="bidirectional"/>
+        <pin num="2" name="RX" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SCL" type="bidirectional"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="C6" type="bidirectional"/>
+        <pin num="9" name="D7" type="bidirectional"/>
+        <pin num="10" name="E6" type="bidirectional"/>
+        <pin num="11" name="B4" type="bidirectional"/>
+        <pin num="12" name="B5" type="bidirectional"/>
+        <pin num="13" name="B6" type="bidirectional"/>
+        <pin num="14" name="B2" type="bidirectional"/>
+        <pin num="15" name="B3" type="bidirectional"/>
+        <pin num="16" name="B1" type="bidirectional"/>
+        <pin num="17" name="F7" type="bidirectional"/>
+        <pin num="18" name="F6" type="bidirectional"/>
+        <pin num="19" name="F5" type="bidirectional"/>
+        <pin num="20" name="F4" type="bidirectional"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="sata" part="satapwr">
+      <description>Generic connector, single row, 01x15, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">sata15</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="power_in"/>
+        <pin num="2" name="Pin_2" type="power_in"/>
+        <pin num="3" name="Pin_3" type="power_in"/>
+        <pin num="4" name="Pin_4" type="power_in"/>
+        <pin num="5" name="Pin_5" type="power_in"/>
+        <pin num="6" name="Pin_6" type="power_in"/>
+        <pin num="7" name="Pin_7" type="power_in"/>
+        <pin num="8" name="Pin_8" type="power_in"/>
+        <pin num="9" name="Pin_9" type="power_in"/>
+        <pin num="10" name="Pin_10" type="power_in"/>
+        <pin num="11" name="Pin_11" type="power_in"/>
+        <pin num="12" name="Pin_12" type="power_in"/>
+        <pin num="13" name="Pin_13" type="power_in"/>
+        <pin num="14" name="Pin_14" type="power_in"/>
+        <pin num="15" name="Pin_15" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="LightingNodePro-rescue">
+      <uri>F:/Users/Triton/Downloads/LightingNodePro_PCBWay Community/LightingNodePro/LightingNodePro-rescue.kicad_sym</uri>
+    </library>
+    <library logical="sata">
+      <uri>F:/Users/Triton/Documents/KiCad/7.0/symbols/sata.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="power_in"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="power_in"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/D1">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/D2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/GND">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="power_in"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="power_in"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="power_in"/>
+      <node ref="J1" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="power_in"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="power_in"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="power_in"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="unconnected-(J1-Pin_1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="power_in+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(J1-Pin_2-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="power_in+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(J1-Pin_3-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(J1-Pin_13-Pad13)">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="power_in+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(J1-Pin_14-Pad14)">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="power_in+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(J1-Pin_15-Pad15)">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="power_in+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U1-B1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="B1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-B2-Pad14)">
+      <node ref="U1" pin="14" pinfunction="B2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U1-B3-Pad15)">
+      <node ref="U1" pin="15" pinfunction="B3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U1-B4-Pad11)">
+      <node ref="U1" pin="11" pinfunction="B4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-B5-Pad12)">
+      <node ref="U1" pin="12" pinfunction="B5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-B6-Pad13)">
+      <node ref="U1" pin="13" pinfunction="B6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-C6-Pad8)">
+      <node ref="U1" pin="8" pinfunction="C6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-D4-Pad7)">
+      <node ref="U1" pin="7" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-D7-Pad9)">
+      <node ref="U1" pin="9" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-E6-Pad10)">
+      <node ref="U1" pin="10" pinfunction="E6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-F4-Pad20)">
+      <node ref="U1" pin="20" pinfunction="F4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-F5-Pad19)">
+      <node ref="U1" pin="19" pinfunction="F5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-F6-Pad18)">
+      <node ref="U1" pin="18" pinfunction="F6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-F7-Pad17)">
+      <node ref="U1" pin="17" pinfunction="F7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-RAW-Pad24)">
+      <node ref="U1" pin="24" pinfunction="RAW" pintype="power_out+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-RST-Pad22)">
+      <node ref="U1" pin="22" pinfunction="RST" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-RX-Pad2)">
+      <node ref="U1" pin="2" pinfunction="RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-TX-Pad1)">
+      <node ref="U1" pin="1" pinfunction="TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-VCC-Pad21)">
+      <node ref="U1" pin="21" pinfunction="VCC" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
